@@ -96,7 +96,7 @@ class Car {
         this.odometer++;
         ran = (1 / this.milesPerGallon);
         ran.toFixed();
-        ran = ran * 100;
+        ran *= 100;
         this.tank = ran;
         driveableMiles--;
       } else {
