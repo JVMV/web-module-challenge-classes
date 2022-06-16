@@ -94,7 +94,7 @@ class Car {
       if(driveableMiles !== 0) {
         let ran = 0
         this.odometer++;
-        ran = (1 / this.milesPerGallon);
+        ran = 1 / this.milesPerGallon;
         ran.toFixed();
         ran *= 100;
         this.tank = ran;
